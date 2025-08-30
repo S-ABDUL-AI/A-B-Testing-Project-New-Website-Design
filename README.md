@@ -17,11 +17,9 @@ We created a synthetic dataset containing the following fields:
 •	group → "A" (Control group with the old design) or "B" (Variant group with the new design)
 •	converted → 1 if the user converted (e.g., signed up, purchased), 0 if not
 Example snippet:
-user_id	group	converted
-1	       A	     0
-2	       B	     1
-3	       A	     0
-4	       B	     1
+        user_id	1, 2, 3, 4 
+group	converted A, B, A, B
+                0, 1, 0, 1
 
 Methodology
 1.	Exploratory Data Analysis (EDA)
